@@ -51,7 +51,7 @@ const Footer = () => {
           >
             <Link href="/" className="relative w-16 h-16">
               <Image
-                src={"/assets/logos/logo.png"}
+                src={"/assets/logos/E3-Blockraise-2.svg"}
                 alt="Logo"
                 fill
                 sizes="100%"

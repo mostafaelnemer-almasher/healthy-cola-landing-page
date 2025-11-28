@@ -21,7 +21,7 @@ export default function MobileNav({
   return (
     <div className="lg:hidden flex flex-1 items-center justify-between bg-secondary/90 px-8 py-4 rounded-xl">
       <Image
-        src="/assets/logos/logo.png"
+        src="/assets/logos/E3-Blockraise-2.svg"
         alt="Logo"
         width={35}
         height={35}
@@ -45,7 +45,7 @@ export default function MobileNav({
               {/* Logo and close */}
               <div className="flex justify-between items-center mb-8">
                 <Image
-                  src={"/assets/logos/logo.png"}
+                  src={"/assets/logos/E3-Blockraise-2.svg"}
                   alt="Logo"
                   width={50}
                   height={50}

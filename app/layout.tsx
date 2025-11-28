@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     creator: "tokenminds_co",
     images: [
       {
-        url: `${process.env.NEXT_PUBLIC_APP_URL}/assets/logos/logo.png`,
+        url: `${process.env.NEXT_PUBLIC_APP_URL}/assets/logos/E3-Blockraise-2.svg`,
         width: 184,
         height: 183,
       },
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     siteName: "Healthy Cola",
     images: [
       {
-        url: `${process.env.NEXT_PUBLIC_APP_URL}/assets/logos/logo.png`,
+        url: `${process.env.NEXT_PUBLIC_APP_URL}/assets/logos/E3-Blockraise-2.svg`,
         width: 184,
         height: 183,
       },

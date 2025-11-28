@@ -14,7 +14,7 @@ export default function DekstopNav({
   return (
     <div className="hidden lg:flex flex-1 items-center justify-between bg-secondary/90 px-8 py-4 rounded-xl">
       <Image
-        src="/assets/logos/logo.png"
+        src="/assets/logos/E3-Blockraise-2.svg"
         alt="Logo"
         width={40}
         height={40}
