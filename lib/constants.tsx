@@ -340,6 +340,6 @@ export const CHAINLINK_PRICE_FEEDS: Record<string, ChainlinkPriceFeed> = {
 
 export type PriceFeedKey = keyof typeof CHAINLINK_PRICE_FEEDS;
 
-export const BUY_TOKEN_URL = "https://token.healthycola.com";
+export const BUY_TOKEN_URL = "https://ht-token.e3-blockraise.com";
 export const TOKEN_SYMBOL = "HEALTH";
 export const TOKEN_NAME = "Healthy Cola Token";
