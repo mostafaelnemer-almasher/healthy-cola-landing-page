@@ -62,6 +62,7 @@ declare global {
       sold_token: number;
       progress: number;
       price: number;
+      next_price: number;
       bonus: {
         base: number;
         start: string;
