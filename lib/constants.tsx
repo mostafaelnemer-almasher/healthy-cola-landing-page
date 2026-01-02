@@ -17,6 +17,7 @@ import {
   BsTwitterX,
   BsTelegram,
 } from "react-icons/bs";
+import {MdEmail} from "react-icons/md";
 import { Address } from "viem";
 
 export const navMenu: NavMenuItem[] = [
@@ -166,16 +167,20 @@ export const targetAudience: Feature[] = [
 ];
 
 export const socialItems: SocialItem[] = [
-  { Icon: BsFacebook, href: "https://www.facebook.com/HealthyColaOfficial" },
-  { Icon: BsTelegram, href: "https://t.me/Healthy_Cola" },
-  { Icon: BsInstagram, href: "https://www.instagram.com/healthycolaofficial" },
-  { Icon: BsTwitterX, href: "https://x.com/Healthy_cola" },
-  { Icon: BsYoutube, href: "https://youtube.com/@healthycolaofficial" },
-  { Icon: BsTiktok, href: "https://www.tiktok.com/@healthycolaofficial" },
-  { Icon: BsLinkedin, href: "https://www.linkedin.com/showcase/healthy-cola" },
+  // { Icon: BsFacebook, href: "https://www.facebook.com/HealthyColaOfficial" },
+  // { Icon: BsTelegram, href: "https://t.me/Healthy_Cola" },
+  // { Icon: BsInstagram, href: "https://www.instagram.com/healthycolaofficial" },
+  // { Icon: BsTwitterX, href: "https://x.com/Healthy_cola" },
+  // { Icon: BsYoutube, href: "https://youtube.com/@healthycolaofficial" },
+  // { Icon: BsTiktok, href: "https://www.tiktok.com/@healthycolaofficial" },
+  // { Icon: BsLinkedin, href: "https://www.linkedin.com/showcase/healthy-cola" },
+  // {
+  //   Icon: BsSnapchat,
+  //   href: "https://www.snapchat.com/add/healthycola24?share_id=bb80xwPla7g&locale=en-US",
+  // },
   {
-    Icon: BsSnapchat,
-    href: "https://www.snapchat.com/add/healthycola24?share_id=bb80xwPla7g&locale=en-US",
+    href: "mailto:e3-blockraise.com",
+    Icon: MdEmail,
   },
 ];
 
