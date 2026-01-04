@@ -79,7 +79,7 @@ export default function TokenSaleForm({
           {/*</p>*/}
         </div>
         <div className="flex items-center text-black -mb-4">
-          <p className="font-bold md:text-lg text-center text-lg text-primary" style={{'font-size':'1.7rem'}}>
+          <p className="font-bold md:text-lg text-center text-lg text-primary" style={{fontSize:'1.7rem'}}>
             the trading date on Ibank platform will be on January 15th .
           </p>
         </div>
