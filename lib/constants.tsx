@@ -17,7 +17,8 @@ import {
   BsTwitterX,
   BsTelegram,
 } from "react-icons/bs";
-import {MdEmail} from "react-icons/md";
+import { MdEmail} from "react-icons/md";
+import { CiChat1 } from "react-icons/ci";
 import { Address } from "viem";
 
 export const navMenu: NavMenuItem[] = [
@@ -181,6 +182,10 @@ export const socialItems: SocialItem[] = [
   {
     href: "mailto:info@e3-blockraise.com",
     Icon: MdEmail,
+  },
+  {
+    href: "https://tawk.to/chat/695a30db59b3a3197b8893d6/1je44tnc2",
+    Icon: CiChat1,
   },
 ];
 
