@@ -46,7 +46,8 @@ export default function DekstopNav({
 
       <Link href={BUY_TOKEN_URL} target="_blank">
         <Button size="lg" className="gap-4">
-          <div>Buy $HEALTH</div>
+          {/*<div>Buy $HEALTH</div>*/}
+          <div>Login</div>
           <div className="text-primary bg-white rounded-sm">
             <ArrowRight className="-rotate-45" />
           </div>

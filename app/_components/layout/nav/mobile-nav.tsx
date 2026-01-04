@@ -79,7 +79,8 @@ export default function MobileNav({
 
                 <Link href={BUY_TOKEN_URL} target="_blank" className="w-full">
                   <Button className="py-4 w-full text-xs gap-4 flex-1 mt-5">
-                    <div>Buy $HEALTH</div>
+                    {/*<div>Buy $HEALTH</div>*/}
+                    <div>Login</div>
                     <div className="text-primary bg-white rounded-sm">
                       <ArrowRight className="-rotate-45" />
                     </div>
