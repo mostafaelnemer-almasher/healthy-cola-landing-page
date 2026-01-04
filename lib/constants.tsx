@@ -18,7 +18,8 @@ import {
   BsTelegram,
 } from "react-icons/bs";
 import { MdEmail} from "react-icons/md";
-import { CiChat1 } from "react-icons/ci";
+import { IoChatbox } from "react-icons/io5";
+
 import { Address } from "viem";
 
 export const navMenu: NavMenuItem[] = [
@@ -185,7 +186,7 @@ export const socialItems: SocialItem[] = [
   },
   {
     href: "https://tawk.to/chat/695a30db59b3a3197b8893d6/1je44tnc2",
-    Icon: CiChat1,
+    Icon: IoChatbox,
   },
 ];
 
