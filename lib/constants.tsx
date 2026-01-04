@@ -179,7 +179,7 @@ export const socialItems: SocialItem[] = [
   //   href: "https://www.snapchat.com/add/healthycola24?share_id=bb80xwPla7g&locale=en-US",
   // },
   {
-    href: "mailto:e3-blockraise.com",
+    href: "mailto:info@e3-blockraise.com",
     Icon: MdEmail,
   },
 ];
