@@ -80,7 +80,8 @@ export default function TokenSaleForm({
         </div>
         <div className="flex items-center text-black -mb-4">
           <p className="font-bold md:text-lg text-center text-lg text-primary" style={{fontSize:'1.7rem'}}>
-            The trading date on Lbank platform will be During January.
+            {/*The trading date on Lbank platform will be During January.*/}
+            Trading will begin soon.
           </p>
         </div>
         <div className="grid grid-cols-3 gap-2 md:gap-5 w-full h-full text-white">
