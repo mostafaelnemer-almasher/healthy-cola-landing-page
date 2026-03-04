@@ -57,7 +57,7 @@ export default function TermsOfServicePage() {
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                 <p>
-                  Healthy Cola does not provide investment advice; participation
+                  HCOLA does not provide investment advice; participation
                   in token utilities is at your own risk.
                 </p>
               </div>
@@ -111,8 +111,8 @@ export default function TermsOfServicePage() {
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                 <p>
-                  All Healthy Cola branding, content, and materials are owned or
-                  licensed by Healthy Cola.
+                  All HCOLA branding, content, and materials are owned or
+                  licensed by HCOLA.
                 </p>
               </div>
               <div className="flex items-start gap-3">
@@ -141,7 +141,7 @@ export default function TermsOfServicePage() {
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                 <p>
-                  Healthy Cola is not responsible for losses due to market
+                  HCOLA is not responsible for losses due to market
                   volatility, smart contract bugs, or third-party integrations.
                 </p>
               </div>

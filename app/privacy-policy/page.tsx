@@ -30,7 +30,7 @@ export default function PrivacyPolicyPage() {
             data-aos-delay="300"
           >
             We respect your privacy and are committed to safeguarding your
-            personal information while you interact with the Healthy Cola
+            personal information while you interact with the HCOLA
             ecosystem.
           </p>
         </div>

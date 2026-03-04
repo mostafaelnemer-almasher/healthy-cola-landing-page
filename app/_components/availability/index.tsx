@@ -27,7 +27,7 @@ export default function Availability() {
           className="flex flex-col w-full xl:w-1/2 gap-5"
         >
           <h1 className="font-semibold text-4xl md:text-6xl mb-10 xl:mb-5 mt-5 xl:mt-0 text-center lg:text-start">
-            Where is Healthy Cola available now?
+            Where is HCOLA available now?
           </h1>
           <ul className="list-disc pl-5 text-lg space-y-2 text-gray-900 font-medium">
             <li>

@@ -97,7 +97,7 @@ export const roadmapData: RoadmapItem[] = [
     content: [
       "Broaden EU presence (France, Italy, UK).",
       "Scale Russia & Uzbekistan distribution with localized campaigns.",
-      "Launch Healthy Cola Energy (functional line).",
+      "Launch HCOLA Energy (functional line).",
       "Brand KPI: ≥25% aided awareness in 5 anchor markets (KSA, UAE, Egypt, USA/Canada, Russia).",
     ],
   },
@@ -210,7 +210,7 @@ export const services: ServiceItem[] = [
         href: "/#home",
       },
       {
-        name: "Healthy Cola",
+        name: "HCOLA",
         href: "/#about",
       },
       {
@@ -232,14 +232,14 @@ export const services: ServiceItem[] = [
 
 export const faqItems: FaqItem[] = [
   {
-    title: "What is Healthy Cola?",
+    title: "What is HCOLA?",
     content:
-      "Healthy Cola is a next-generation cola designed for the modern consumer. It delivers the classic cola taste and fizz that people love, but in a health-conscious formula with zero sugar and natural sweeteners.\n\n It’s indulgence without compromise — a cola that balances pleasure and wellness. Healthy Cola isn’t just a drink; it’s a movement redefining the cola category for a new generation.",
+      "HCOLA is a next-generation cola designed for the modern consumer. It delivers the classic cola taste and fizz that people love, but in a health-conscious formula with zero sugar and natural sweeteners.\n\n It’s indulgence without compromise — a cola that balances pleasure and wellness. HCOLA isn’t just a drink; it’s a movement redefining the cola category for a new generation.",
   },
   {
     title: "What problem does it solve?",
     content:
-      "Traditional colas contribute to obesity, diabetes, and lifestyle-related diseases, yet consumers still crave the cola experience. Healthy Cola bridges this gap by offering a guilt-free alternative: the same refreshment, but without the harmful sugar load.",
+      "Traditional colas contribute to obesity, diabetes, and lifestyle-related diseases, yet consumers still crave the cola experience. HCOLA bridges this gap by offering a guilt-free alternative: the same refreshment, but without the harmful sugar load.",
   },
   {
     title: "Who is the target audience?",
@@ -248,12 +248,12 @@ export const faqItems: FaqItem[] = [
       "◆ \u00A0 Fitness & lifestyle consumers: refreshment that fits health goals\n" +
       "◆ \u00A0 Families & parents: safer choices for kids without denying them cola moments\n" +
       "◆ \u00A0 Older consumers: reducing sugar intake while keeping enjoyment" +
-      "\n\nHealthy Cola is a cola for all of us.",
+      "\n\nHCOLA is a cola for all of us.",
   },
   {
-    title: "Where is Healthy Cola available now?",
+    title: "Where is HCOLA available now?",
     content:
-      "Healthy Cola is already active in 16 countries across key regions:\n\n" +
+      "HCOLA is already active in 16 countries across key regions:\n\n" +
       "◆ \u00A0 Arabian Peninsula & Gulf: Saudi Arabia, UAE, Qatar, Kuwait, Oman, Yemen\n" +
       "◆ \u00A0 Levant (Western Asia): Jordan, Palestine, Syria\n" +
       "◆ \u00A0 North Africa: Egypt, Libya\n" +
@@ -261,10 +261,10 @@ export const faqItems: FaqItem[] = [
       "◆ \u00A0 North America: USA, Canada\n" +
       "◆ \u00A0 Central Asia: Uzbekistan\n" +
       "◆ \u00A0 Eurasia: Russia\n" +
-      "\nThis global footprint proves Healthy Cola’s adaptability across cultures, economies, and consumer needs.",
+      "\nThis global footprint proves HCOLA’s adaptability across cultures, economies, and consumer needs.",
   },
   {
-    title: "What makes Healthy Cola unique?",
+    title: "What makes HCOLA unique?",
     content:
       "◆ \u00A0 Zero sugar + natural sweeteners (stevia-based, better-for-you)\n" +
       "◆ \u00A0 Universal appeal → from athletes to families, across all age groups\n" +
@@ -272,9 +272,9 @@ export const faqItems: FaqItem[] = [
       "◆ \u00A0 Multi-channel adaptability → retail, pharmacy, HoReCa, gyms, online, export\n",
   },
   {
-    title: "How does Healthy Cola make money?",
+    title: "How does HCOLA make money?",
     content:
-      "Healthy Cola’s five revenue streams create resilience and scale:\n\n" +
+      "HCOLA’s five revenue streams create resilience and scale:\n\n" +
       "◆ \u00A0 B2B distribution → retail chains, pharmacies, gyms, distributors\n" +
       "◆ \u00A0 B2C engagement → direct partnerships with consumers in local markets\n" +
       "◆ \u00A0 E-commerce / DTC → digital-first presence on delivery platforms and brand-owned channels\n" +
@@ -298,9 +298,9 @@ export const faqItems: FaqItem[] = [
       "◆ \u00A0 By 2030: $200M+ revenues and >15% EBITDA margin\n",
   },
   {
-    title: "Why Healthy Cola?",
+    title: "Why HCOLA?",
     content:
-      "Healthy Cola is powered by a professional leadership team with deep expertise in FMCG, health, and international expansion. The team brings together seasoned executives across operations, marketing, sales, and finance, each with a proven track record of building successful consumer brands.\n\nAt the helm is Dr. Ashraf Siam, CEO — a visionary leader with 20+ years of global experience in FMCG and health-focused businesses, bridging both academic strategy and hands-on execution. Under his guidance, Healthy Cola is positioned to become the world’s first truly global guilt-free cola movement.",
+      "HCOLA is powered by a professional leadership team with deep expertise in FMCG, health, and international expansion. The team brings together seasoned executives across operations, marketing, sales, and finance, each with a proven track record of building successful consumer brands.\n\nAt the helm is Dr. Ashraf Siam, CEO — a visionary leader with 20+ years of global experience in FMCG and health-focused businesses, bridging both academic strategy and hands-on execution. Under his guidance, HCOLA is positioned to become the world’s first truly global guilt-free cola movement.",
   },
 ];
 
@@ -353,4 +353,4 @@ export type PriceFeedKey = keyof typeof CHAINLINK_PRICE_FEEDS;
 
 export const BUY_TOKEN_URL = "https://ht-token.e3-blockraise.com";
 export const TOKEN_SYMBOL = "HEALTH";
-export const TOKEN_NAME = "Healthy Cola Token";
+export const TOKEN_NAME = "HCOLA Token";

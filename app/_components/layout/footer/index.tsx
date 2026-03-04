@@ -97,7 +97,7 @@ const Footer = () => {
 
         <div className="mt-10 sm:mt-24 w-full h-fit flex flex-col lg:flex-row items-start lg:items-center justify-between space-y-5 lg:space-y-0">
           <p className="text-white text-base whitespace-nowrap">
-            Healthy Cola 2025 ©, All rights reserved
+            HCOLA 2025 ©, All rights reserved
           </p>
 
           <div className="w-full flex flex-row space-x-4 items-center justify-between lg:justify-end">

@@ -30,12 +30,12 @@ export default function FirstAbout() {
         </Badge>
 
         <h1 className="font-semibold text-4xl md:text-6xl mb-4">
-          What is Healthy Cola?
+          What is HCOLA?
         </h1>
 
         <div className="text-muted-foreground text-base space-y-5">
           <p>
-            {`Healthy Cola is a guilt-free soft drink brand blending taste with wellness. In our first year we grew to $4.7M in revenue across 15 countries, proving the demand for a healthier cola alternative.`}
+            {`HCOLA is a guilt-free soft drink brand blending taste with wellness. In our first year we grew to $4.7M in revenue across 15 countries, proving the demand for a healthier cola alternative.`}
           </p>
 
           <p>

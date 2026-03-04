@@ -13,15 +13,15 @@ const robotoCondensed = Roboto_Condensed({
 });
 
 export const metadata: Metadata = {
-  title: "Landing Page | Healthy Cola",
+  title: "Landing Page | HCOLA",
   description:
-    "Healthy Cola is a clear low or no sugar cola for health-conscious consumers. Clean ingredients, transparent labeling, and familiar taste without the sugar spike. Built to stay competitive in markets with sugar taxes while meeting modern regulations.",
+    "HCOLA is a clear low or no sugar cola for health-conscious consumers. Clean ingredients, transparent labeling, and familiar taste without the sugar spike. Built to stay competitive in markets with sugar taxes while meeting modern regulations.",
   keywords: [
-    "Healthy Cola",
+    "HCOLA",
     "Low Sugar Cola",
     "No Sugar Soda",
     "Clear Cola",
-    "Healthy Beverage",
+    "HCOLA Beverage",
     "Soft Drink",
     "Clean Label",
     "Sugar Tax Friendly",
@@ -30,16 +30,16 @@ export const metadata: Metadata = {
   ],
   creator: "TokenMinds",
   authors: {
-    name: "Healthy Cola",
+    name: "HCOLA",
     url: process.env.NEXT_PUBLIC_APP_URL,
   },
-  publisher: "Healthy Cola",
-  applicationName: "Healthy Cola",
+  publisher: "HCOLA",
+  applicationName: "HCOLA",
   twitter: {
     card: "summary_large_image",
-    title: "Landing Page | Healthy Cola",
+    title: "Landing Page | HCOLA",
     description:
-      "Healthy Cola is a clear low or no sugar cola with clean ingredients and transparent labeling. Familiar taste without the sugar spike.",
+      "HCOLA is a clear low or no sugar cola with clean ingredients and transparent labeling. Familiar taste without the sugar spike.",
     creator: "tokenminds_co",
     images: [
       {
@@ -50,11 +50,11 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: "Healthy Cola | Landing Page",
+    title: "HCOLA | Landing Page",
     description:
-      "Healthy Cola is a clear low or no sugar cola for modern, health-conscious consumers. Clean label and regulation ready.",
+      "HCOLA is a clear low or no sugar cola for modern, health-conscious consumers. Clean label and regulation ready.",
     url: process.env.NEXT_PUBLIC_APP_URL,
-    siteName: "Healthy Cola",
+    siteName: "HCOLA",
     images: [
       {
         url: `${process.env.NEXT_PUBLIC_APP_URL}/assets/logos/E3-Blockraise-2.svg`,
