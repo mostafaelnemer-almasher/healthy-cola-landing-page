@@ -41,7 +41,7 @@ export default function FirstAbout() {
           <p>
             With the{" "}
             <strong className="bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent">
-              HEALTH
+              HCOLA
             </strong>{" "}
             Token, fans and investors can join our journey. Token holders enjoy
             staking rewards, purchase-to-earn benefits, discounts, and early
