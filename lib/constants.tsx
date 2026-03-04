@@ -135,7 +135,7 @@ export const features: Feature[] = [
     icon: <Gift size={25} />,
     title: "Rewards",
     description:
-      "Staking HEALTH tokens for loyalty rewards, discounts, dividends",
+      "Staking HCOLA tokens for loyalty rewards, discounts, dividends",
   },
   {
     icon: <HeartHandshake size={25} />,
