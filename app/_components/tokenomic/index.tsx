@@ -9,7 +9,7 @@ export default function Tokenomic() {
           src={"/assets/images/tokenomic.png"}
           width={2160}
           height={1390}
-          alt="HEALTH Tokenomic"
+          alt="HCOLA Tokenomic"
           className="w-full h-auto"
         />
       </div>
@@ -18,7 +18,7 @@ export default function Tokenomic() {
         src={"/assets/images/tokenomic-bottom.png"}
         width={2160}
         height={904}
-        alt="HEALTH Tokenomic"
+        alt="HCOLA Tokenomic"
         className="w-full h-auto"
       />
     </section>

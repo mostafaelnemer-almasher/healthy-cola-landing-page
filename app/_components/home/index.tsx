@@ -47,7 +47,7 @@ export default function Home() {
               wordSpacing: "0.5rem",
             }}
           >
-            HEALTH Token Sale is{" "}
+            HCOLA Token Sale is{" "}
             <span className="bg-white text-primary rounded-2xl px-4 py-1">
               {isLive ? "Live Now!" : "Coming Soon!"}
             </span>
