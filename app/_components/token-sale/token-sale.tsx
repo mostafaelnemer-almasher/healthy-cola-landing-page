@@ -56,169 +56,169 @@ export default function TokenSaleForm({
       <Card className="bg-white border-none shadow-none rounded-3xl w-full md:w-[525px] h-full flex flex-col items-center gap-2 md:gap-5 p-5">
         {/* Title */}
         <div className="flex flex-col w-full items-center gap-1 bg-primary p-2 rounded-xl text-white">
-          {/*<h2 className="text-xl md:text-3xl font-bold text-center">*/}
-          {/*  BUY ${TOKEN_SYMBOL} AT $*/}
-          {/*  {tokenPrice.toLocaleString("en-US", {*/}
-          {/*    minimumFractionDigits: 0,*/}
-          {/*    maximumFractionDigits: 4,*/}
-          {/*  })}*/}
-          {/*</h2>*/}
           <h2 className="text-xl md:text-3xl font-bold text-center">
-            listing price $
-            {tokenListingPrice.toLocaleString("en-US", {
+            BUY ${TOKEN_SYMBOL} AT $
+            {tokenPrice.toLocaleString("en-US", {
               minimumFractionDigits: 0,
               maximumFractionDigits: 4,
             })}
           </h2>
-          {/*<p className="text-lg text-center font-medium line-through">*/}
-          {/*  from $*/}
-          {/*  {tokenNextPrice.toLocaleString("en-US", {*/}
+          {/*<h2 className="text-xl md:text-3xl font-bold text-center">*/}
+          {/*  listing price $*/}
+          {/*  {tokenListingPrice.toLocaleString("en-US", {*/}
           {/*    minimumFractionDigits: 0,*/}
           {/*    maximumFractionDigits: 4,*/}
           {/*  })}*/}
-          {/*</p>*/}
-        </div>
-        <div className="flex items-center text-black -mb-4">
-          <p className="font-bold md:text-lg text-center text-lg text-primary" style={{fontSize:'1.7rem'}}>
-            {/*The trading date on Lbank platform will be During January.*/}
-            Trading will begin soon.
+          {/*</h2>*/}
+          <p className="text-lg text-center font-medium line-through">
+            from $
+            {tokenNextPrice.toLocaleString("en-US", {
+              minimumFractionDigits: 0,
+              maximumFractionDigits: 4,
+            })}
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-2 md:gap-5 w-full h-full text-white">
-
-          {/*<div className="flex flex-col w-full h-28 bg-primary items-center justify-start p-2 rounded-xl relative">*/}
-          {/*  <div className="absolute h-28 -mt-2 p-2 rounded-xl w-full bg-primary blur-[15px] z-10" />*/}
-          {/*  <p className="text-sm md:text-base font-normal text-center z-20 whitespace-nowrap">*/}
-          {/*    Current Price*/}
-          {/*  </p>*/}
-          {/*  <p className="text-2xl md:text-3xl font-medium mt-2 z-20">*/}
-          {/*    $*/}
-          {/*    {tokenPrice.toLocaleString("en-US", {*/}
-          {/*      minimumFractionDigits: 0,*/}
-          {/*      maximumFractionDigits: 4,*/}
-          {/*    })}*/}
-          {/*  </p>*/}
-          {/*</div>*/}
-
-          {/*<div className="flex flex-col w-full h-28 border-4 border-primary items-center justify-between p-2 rounded-xl text-black bg-transparent">*/}
-          {/*  <p className="text-sm md:text-base font-normal text-center whitespace-nowrap">*/}
-          {/*    Next Price*/}
-          {/*  </p>*/}
-          {/*  <p className="text-2xl md:text-3xl font-medium">*/}
-          {/*    $*/}
-          {/*    {tokenNextPrice.toLocaleString("en-US", {*/}
-          {/*      minimumFractionDigits: 0,*/}
-          {/*      maximumFractionDigits: 4,*/}
-          {/*    })}*/}
-          {/*  </p>*/}
-          {/*  <p className="text-[10px] md:text-xs font-normal text-center">*/}
-          {/*    (+{nextPricePercentage}%) increase*/}
-          {/*  </p>*/}
-          {/*</div>*/}
-
-          {/*<div className="flex flex-col w-full h-28 bg-transparent border-4 border-primary items-center justify-between p-2 rounded-xl text-black">*/}
-          {/*  <p className="text-sm md:text-base font-normal text-center whitespace-nowrap">*/}
-          {/*    Listing Price*/}
-          {/*  </p>*/}
-          {/*  <p className="text-2xl md:text-3xl font-medium">*/}
-          {/*    $*/}
-          {/*    {tokenListingPrice.toLocaleString("en-US", {*/}
-          {/*      minimumFractionDigits: 0,*/}
-          {/*      maximumFractionDigits: 4,*/}
-          {/*    })}*/}
-          {/*  </p>*/}
-          {/*  <p className="text-[10px] md:text-xs font-normal text-center">*/}
-          {/*    (+{listingPricePercentage}%) increase*/}
-          {/*  </p>*/}
-          {/*</div>*/}
-        </div>
-
         {/*<div className="flex items-center text-black -mb-4">*/}
-        {/*  <p className="text-sm md:text-lg font-medium">*/}
-        {/*    {isLive ? "⚡️ The price increases in" : "Starts in"}*/}
+        {/*  <p className="font-bold md:text-lg text-center text-lg text-primary" style={{fontSize:'1.7rem'}}>*/}
+        {/*    /!*The trading date on Lbank platform will be During January.*!/*/}
+        {/*    Trading will begin soon.*/}
         {/*  </p>*/}
         {/*</div>*/}
+        <div className="grid grid-cols-3 gap-2 md:gap-5 w-full h-full text-white">
 
-        {/*{isLoading ? (*/}
-        {/*  <Fragment>*/}
-        {/*    <Skeleton className="h-16 w-full mx-auto rounded-xl" />*/}
+          <div className="flex flex-col w-full h-28 bg-primary items-center justify-start p-2 rounded-xl relative">
+            <div className="absolute h-28 -mt-2 p-2 rounded-xl w-full bg-primary blur-[15px] z-10" />
+            <p className="text-sm md:text-base font-normal text-center z-20 whitespace-nowrap">
+              Current Price
+            </p>
+            <p className="text-2xl md:text-3xl font-medium mt-2 z-20">
+              $
+              {tokenPrice.toLocaleString("en-US", {
+                minimumFractionDigits: 0,
+                maximumFractionDigits: 4,
+              })}
+            </p>
+          </div>
 
-        {/*    <div className="flex flex-row items-center gap-4 w-full justify-center">*/}
-        {/*      <Skeleton className="h-12 w-64" />*/}
-        {/*      <Skeleton className="h-16 w-40" />*/}
-        {/*    </div>*/}
+          <div className="flex flex-col w-full h-28 border-4 border-primary items-center justify-between p-2 rounded-xl text-black bg-transparent">
+            <p className="text-sm md:text-base font-normal text-center whitespace-nowrap">
+              Next Price
+            </p>
+            <p className="text-2xl md:text-3xl font-medium">
+              $
+              {tokenNextPrice.toLocaleString("en-US", {
+                minimumFractionDigits: 0,
+                maximumFractionDigits: 4,
+              })}
+            </p>
+            <p className="text-[10px] md:text-xs font-normal text-center">
+              (+{nextPricePercentage}%) increase
+            </p>
+          </div>
 
-        {/*    <div className="flex w-full justify-center">*/}
-        {/*      <div className="flex gap-4 items-center">*/}
-        {/*        <Skeleton className="h-16 w-28 rounded-md" />*/}
-        {/*        <Skeleton className="h-16 w-28 rounded-md" />*/}
-        {/*        <Skeleton className="h-16 w-28 rounded-md" />*/}
-        {/*      </div>*/}
-        {/*    </div>*/}
-        {/*  </Fragment>*/}
-        {/*) : error ? (*/}
-        {/*  <div className="text-red-400">Failed to load data</div>*/}
-        {/*) : data ? (*/}
-        {/*  <div className="flex flex-col space-y-3">*/}
-        {/*    <Countdown*/}
-        {/*      targetDate={isLive ? new Date(endDate!) : new Date(startDate!)}*/}
-        {/*    />*/}
+          <div className="flex flex-col w-full h-28 bg-transparent border-4 border-primary items-center justify-between p-2 rounded-xl text-black">
+            <p className="text-sm md:text-base font-normal text-center whitespace-nowrap">
+              Listing Price
+            </p>
+            <p className="text-2xl md:text-3xl font-medium">
+              $
+              {tokenListingPrice.toLocaleString("en-US", {
+                minimumFractionDigits: 0,
+                maximumFractionDigits: 4,
+              })}
+            </p>
+            <p className="text-[10px] md:text-xs font-normal text-center">
+              (+{listingPricePercentage}%) increase
+            </p>
+          </div>
+        </div>
 
-        {/*    <div className="flex flex-row items-center gap-4 w-full justify-center">*/}
-        {/*      <p*/}
-        {/*        className={cn(*/}
-        {/*          "text-lg md:text-2xl font-bold text-black whitespace-nowrap",*/}
-        {/*          !showHolderCount && "hidden"*/}
-        {/*        )}*/}
-        {/*      >*/}
-        {/*        {holderCount.toLocaleString("en-US")}{" "}*/}
-        {/*        <span className="text-primary">HOLDERS</span>*/}
-        {/*      </p>*/}
+        <div className="flex items-center text-black -mb-4">
+          <p className="text-sm md:text-lg font-medium">
+            {isLive ? "⚡️ The price increases in" : "Starts in"}
+          </p>
+        </div>
 
-        {/*      <Link*/}
-        {/*        href={BUY_TOKEN_URL}*/}
-        {/*        target="_blank"*/}
-        {/*        rel="noopener noreferrer"*/}
-        {/*      >*/}
-        {/*        <Button className="bg-primary hover:bg-primary/90 p-6 text-lg md:text-2xl text-white cursor-pointer">*/}
-        {/*          Buy NOW*/}
-        {/*        </Button>*/}
-        {/*      </Link>*/}
-        {/*    </div>*/}
+        {isLoading ? (
+          <Fragment>
+            <Skeleton className="h-16 w-full mx-auto rounded-xl" />
 
-        {/*    <div className="flex w-full justify-center">*/}
-        {/*      <div className="flex gap-4 items-center">*/}
-        {/*        <div className="flex flex-row items-center gap-1 border border-gray-300 p-2 rounded-md">*/}
-        {/*          <Image*/}
-        {/*            src="/assets/logos/tokens/eth.png"*/}
-        {/*            alt="ETH"*/}
-        {/*            width={30}*/}
-        {/*            height={30}*/}
-        {/*          />*/}
-        {/*          <p className="text-base text-black font-medium">ETH</p>*/}
-        {/*        </div>*/}
-        {/*        <div className="flex flex-row items-center gap-1 border border-gray-300 p-2 rounded-md">*/}
-        {/*          <Image*/}
-        {/*            src="/assets/logos/tokens/usdt.png"*/}
-        {/*            alt="USDT"*/}
-        {/*            width={30}*/}
-        {/*            height={30}*/}
-        {/*          />*/}
-        {/*          <p className="text-base text-black font-medium">USDT</p>*/}
-        {/*        </div>*/}
-        {/*        <div className="flex flex-row items-center gap-1 border border-gray-300 p-2 rounded-md">*/}
-        {/*          <Image*/}
-        {/*            src="/assets/logos/tokens/card.png"*/}
-        {/*            alt="Card"*/}
-        {/*            width={30}*/}
-        {/*            height={30}*/}
-        {/*          />*/}
-        {/*          <p className="text-base text-black font-medium">CARD</p>*/}
-        {/*        </div>*/}
-        {/*      </div>*/}
-        {/*    </div>*/}
-        {/*  </div>*/}
-        {/*) : null}*/}
+            <div className="flex flex-row items-center gap-4 w-full justify-center">
+              <Skeleton className="h-12 w-64" />
+              <Skeleton className="h-16 w-40" />
+            </div>
+
+            <div className="flex w-full justify-center">
+              <div className="flex gap-4 items-center">
+                <Skeleton className="h-16 w-28 rounded-md" />
+                <Skeleton className="h-16 w-28 rounded-md" />
+                <Skeleton className="h-16 w-28 rounded-md" />
+              </div>
+            </div>
+          </Fragment>
+        ) : error ? (
+          <div className="text-red-400">Failed to load data</div>
+        ) : data ? (
+          <div className="flex flex-col space-y-3">
+            <Countdown
+              targetDate={isLive ? new Date(endDate!) : new Date(startDate!)}
+            />
+
+            <div className="flex flex-row items-center gap-4 w-full justify-center">
+              <p
+                className={cn(
+                  "text-lg md:text-2xl font-bold text-black whitespace-nowrap",
+                  !showHolderCount && "hidden"
+                )}
+              >
+                {holderCount.toLocaleString("en-US")}{" "}
+                <span className="text-primary">HOLDERS</span>
+              </p>
+
+              <Link
+                href={BUY_TOKEN_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button className="bg-primary hover:bg-primary/90 p-6 text-lg md:text-2xl text-white cursor-pointer">
+                  Buy NOW
+                </Button>
+              </Link>
+            </div>
+
+            <div className="flex w-full justify-center">
+              <div className="flex gap-4 items-center">
+                <div className="flex flex-row items-center gap-1 border border-gray-300 p-2 rounded-md">
+                  <Image
+                    src="/assets/logos/tokens/eth.png"
+                    alt="ETH"
+                    width={30}
+                    height={30}
+                  />
+                  <p className="text-base text-black font-medium">ETH</p>
+                </div>
+                <div className="flex flex-row items-center gap-1 border border-gray-300 p-2 rounded-md">
+                  <Image
+                    src="/assets/logos/tokens/usdt.png"
+                    alt="USDT"
+                    width={30}
+                    height={30}
+                  />
+                  <p className="text-base text-black font-medium">USDT</p>
+                </div>
+                <div className="flex flex-row items-center gap-1 border border-gray-300 p-2 rounded-md">
+                  <Image
+                    src="/assets/logos/tokens/card.png"
+                    alt="Card"
+                    width={30}
+                    height={30}
+                  />
+                  <p className="text-base text-black font-medium">CARD</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        ) : null}
       </Card>
     </div>
   );
